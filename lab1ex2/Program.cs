@@ -21,7 +21,7 @@ namespace lab1ex2
             Console.WriteLine("Enter thirdNumber: ");
             thirdNumber = int.Parse(Console.ReadLine());
 
-            int mediaAritmetica = (firstNumber + secondNumber + thirdNumber)/3;
+            double mediaAritmetica = (double)(firstNumber + secondNumber + thirdNumber)/3;
             Console.WriteLine("Media Aritmetica este: " + mediaAritmetica);
         }
     }
